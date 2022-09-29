@@ -1,6 +1,6 @@
 const body = document.querySelector('body');
 //Definir lista de colores 
-const bg_color = ['red','green','blue','yellow','pink','purple'];
+const bg_color = ['#FF9494','#A7FFE4','#AAC4FF','#FFF5E4','#FFD6EC','#B1B2FF'];
 
 function ChangeColor(){
     // Random Number between 0-6
