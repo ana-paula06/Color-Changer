@@ -15,3 +15,12 @@ function ChangeTextColor(){
     const color_index = parseInt(Math.random() * text_colors.length);
     text.style.color = text_colors [color_index];
 }
+/*Al seleccionar un color */
+const inputColor = document.getElementById("inputColor");
+const boton = document.getElementById("boton");
+console.log(inputColor.value);
+
+boton.addEventListener("click", () => {
+    console.log(inputColor.value);
+    body.style.backgroundColor =  inputColor.value;
+});
