@@ -8,10 +8,19 @@
     <link rel="stylesheet" href="/Color-Changer/css/styles.css">
 </head>
 <body>
-    <h1 id="text">Color Changer</h1>
+        <h1 id="text">Color Changer</h1>
     <div class="container">
         <button id="color" onclick="ChangeColor()"> Click me</button>
         <button id="textColor" onclick="ChangeTextColor()"> Click me too</button>
+        <hr> 
+        <br>
+    </div>
+
+    <div class="container">
+        <label class="form-label" for="inputColor">Seleccione un color</label>
+        <input id="inputColor" title="Seleccione un color"
+          type="color" value="#563d7c">
+          <button  id="boton"> Visualizar fondo </button>
     </div>
     <script src="/Color-Changer/js/script.js"></script>
 </body>
